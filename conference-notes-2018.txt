@@ -1,0 +1,62 @@
+CONFERENCE NOTES - LaCUE 2018
+Location: Baton Rouge, LA
+Dates: March 7-9, 2018
+Badge: LA-2018-0211
+e.hargrove
+
+---
+
+SESSIONS ATTENDED
+
+March 7
+  - Keynote: "Infrastructure Resilience in the Modern District" - decent overview, nothing new
+  - "Wireless Density in High-Occupancy Environments" - useful. 802.11ax rollout timeline
+    is more realistic than I expected. 2020-2021 for most district budgets.
+  - "Vendor Panel: Next-Gen Firewall in K-12" - sales pitch disguised as a panel. skipped out
+    at the break.
+
+March 8
+  - "Segmentation Strategies for Small IT Teams" - best session of the conference. The
+    presenter (from a district in Shreveport) has done exactly what I'd recommend for PRISD.
+    Got her card - R. Thibodeaux, Caddo Parish. Following up in April.
+  - "Google Workspace vs. O365: A 3-Year Review" - not my problem but some of the network
+    load data was interesting. Guest WiFi gets hammered during Chromebook deployments.
+  - "OSINT Awareness for School Administrators" - this is why I keep coming. Good session.
+    Walked through what you can find on a district from public records alone. Most admins
+    in the room had no idea their infrastructure was this visible. Will reference this
+    for the PRISD engagement.
+
+March 9
+  - "Physical Security Integration with Network Access Control" - half good, half product demo.
+    The NAC piece was worth staying for.
+
+---
+
+CONTACTS MADE
+
+R. Thibodeaux - Caddo Parish IT - rthibodeaux@caddoparish.k12.la.us (confirm before using)
+M. Fontenot - vendor rep, switched cabling - 555-0182 - may be useful for PRISD job
+D. Arceneaux - freelance, does wireless surveys for small districts - 555-0147
+
+---
+
+FOLLOW-UP ITEMS
+
+[x] Email Thibodeaux re: segmentation approach - done 2018-03-22
+[ ] Look at 802.11ax timeline again in Q4 2018 - is PRISD ready to plan for it?
+[ ] Find the OSINT session slide deck - presenter said she'd post it, haven't seen it
+
+---
+
+GENERAL NOTES
+
+Good conference this year. Better attendance than 2017. The OSINT session reinforced
+something I keep telling clients: the information is already out there. The question is
+whether you know what's visible before someone else does.
+
+Registration was smoother - badge pickup took about 3 minutes vs 20 last year.
+Badge number system makes lookup fast. Digit-sequential by registration order.
+
+---
+
+e.hargrove // filed 2018-03-12
