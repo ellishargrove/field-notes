@@ -1,0 +1,67 @@
+SITE VISIT LOG - PROSPECT RIDGE ISD
+Address: 408 Parish Line Rd, Mansfield, LA 71052
+Visit date: 2019-05-21
+Engagement type: Initial assessment / scoping
+Contact: J. Landry, Director of Technology
+e.hargrove // TRACE
+
+---
+
+PURPOSE
+
+Scoping visit for a potential network infrastructure assessment. PRISD reached out after the
+2018 conference. They're running infrastructure that hasn't been touched since 2013 and they
+know it. Budget cycle starts in October - they want an assessment complete before then.
+
+---
+
+SITE OBSERVATIONS
+
+Physical
+- Three buildings on main campus: Admin (408), Cafeteria/Gym connector, STEM wing (2019 addition)
+- MDF is in a converted supply closet in Admin. No dedicated power, no UPS, ambient temp
+  is whatever the hallway is. Have seen worse.
+- IDF in STEM wing is actually well-done - clearly built when the wing was, proper rack,
+  dedicated circuit, wall-mount UPS.
+- No IDF in cafeteria connector - long cable runs from Admin MDF. Worth documenting.
+
+Network (observed, not tested)
+- Core switch: unmanaged 48-port in MDF. Make unknown, no visible label. Probably 10 years old.
+- Four access points visible: two in Admin, two in STEM wing. No APs in gym or cafeteria.
+  Wireless dead zone in the largest assembly space.
+- No visible firewall appliance. Asked Landry - they use the ISP-provided router/modem combo.
+  Confirmed: no stateful inspection, no content filtering at the network layer.
+- Student network and staff network are on the same physical switch. No VLAN separation observed.
+  Landry confirmed they've never had segmentation.
+
+Staff
+- 2-person IT team. Landry + one part-time tech (student intern, seniors only).
+- No network monitoring. They find out about outages when teachers call.
+
+---
+
+PRELIMINARY FINDINGS (scoping only - not final)
+
+Priority observations:
+1. No network segmentation - student and staff traffic mixed. Not unusual for this size but
+   needs to be addressed.
+2. No firewall. ISP CPE is not a security appliance. This is the biggest gap.
+3. MDF environment inadequate - heat, power, physical security.
+4. Wireless coverage gaps in cafeteria and gym.
+5. No monitoring. They are flying blind.
+
+Not observations, but worth noting:
+- The STEM wing IDF is proof they can do this right when they build new. The Admin MDF
+  situation is inertia, not ignorance.
+
+---
+
+NEXT STEPS
+
+- Proposal to Landry by 2019-06-07
+- Full assessment (if engaged) targeting July completion before school year starts
+- Assessment will follow standard TRACE methodology - see site-checklist.md for template
+
+---
+
+e.hargrove // TRACE // 2019-05-21
