@@ -11,7 +11,7 @@ Nothing - people claim they exist, but I've never seen either one.
 
 My badge sums up everything key to this conference.
 
-Still can't explain the routing drops. Saved the capture.
+Still can't explain the routing drops. Saved the capture to the public repo.
 May look at it again someday... I'm sure the answer is there, somewhere.
 
 Pelican showed up on the loading dock again. Third year running.
