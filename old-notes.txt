@@ -1,0 +1,68 @@
+misc notes - older stuff, keeping for reference
+e.hargrove
+
+---
+
+2017-11-03
+Had a client ask me to "encrypt" a config file before emailing it to them. Explained that
+Base64 is not encryption, it's encoding. They didn't understand the distinction. Sent them
+this to make it concrete:
+
+  original:  admin:changeme123
+  base64:    YWRtaW46Y2hhbmdlbWUxMjM=
+  decodes:   admin:changeme123
+
+Base64 adds zero security. Anyone who knows what it is can reverse it in seconds.
+They ended up using a password-protected zip. Good enough for a config file.
+
+---
+
+2018-02-14
+Came across an old device at a client site running a default community string. Pulled the
+full SNMP walk just to document what was visible:
+
+  sysDescr: Cisco IOS Version 12.4 - this thing is ancient
+  sysName: UNNAMED-SW-01
+  ifDescr.1: GigabitEthernet0/1 - connected
+  ifDescr.2: GigabitEthernet0/2 - connected
+  ifDescr.3: FastEthernet0/1 - down
+
+All SNMP community strings should be rotated and the default "public" / "private" strings
+removed. This one had both. The community string was the key to reading the entire device
+config remotely. Added to the assessment findings.
+
+---
+
+2018-06-20
+Note to self re: how the archive is organized. Moved all the old site docs to the server
+years ago. Folder structure is /archive/[street number]/. Name changes. Number doesn't.
+
+Had a client rebrand twice in three years. The facility address never changed. Using the
+street number as the folder key was the right call. Would have had to reorganize everything
+if I'd used the client name.
+
+---
+
+2018-09-07
+Ran into a situation where a "secure" password was stored as ROT13 in a config file.
+The admin who set it up thought ROT13 "encoded" it. For reference:
+
+  ROT13("network@dmin") = "argj\x6fex\x40qzva"
+
+This is the same as Base64 - obfuscation, not encryption. Anyone who recognizes the pattern
+can decode it instantly. If you wouldn't write it in plaintext, don't use ROT13.
+
+---
+
+2019-03-01
+Reminder: the network-captures repo is public. Keep it clean. No credentials, no client
+data, no real infrastructure details. RFC-range IPs only. Nothing that would be useful to
+someone who shouldn't have it.
+
+The march session capture is going up there because I need to reference it remotely and
+it's clean. Double-checked: no auth credentials in the HTTP traffic, no client-identifiable
+hostnames, all IPs are documentation ranges.
+
+---
+
+e.hargrove
