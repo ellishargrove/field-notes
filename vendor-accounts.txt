@@ -1,0 +1,70 @@
+VENDOR ACCOUNTS AND SUPPORT CONTACTS
+Last updated: 2019-06-15
+e.hargrove // TRACE
+
+For TRACE internal use. Do not share account numbers externally.
+
+---
+
+CISCO
+
+SmartNet Account: CSC-0041882-LA
+Portal: tools.cisco.com/ServiceRequestTool/
+TAC: 1-800-555-0118 (select option 3 for network infrastructure)
+Account rep: P. Moreau - 555-0193 - p.moreau@example-vendor.com
+Renewal date: 2019-11-30
+Covered devices: RT-SRF-01, RT-SRF-02, SW-CORE-01, WLC-SRF-01
+Notes: SmartNet on the core switch expires before the routers. Do not let them lapse
+       together or the renewal discount disappears.
+
+---
+
+PALO ALTO
+
+Support Account: PA-TRACE-00341
+Portal: support.paloaltonetworks.com
+TAC: 1-855-555-0144
+Account rep: None assigned (account too small)
+Support tier: Standard (8x5)
+Renewal date: 2020-03-15
+Covered devices: FW-SRF-01
+Notes: Upgrade to Premium support before the next renewal. 8x5 is not acceptable for
+       the primary perimeter firewall. Raised with management 2019-04.
+
+---
+
+MERAKI (inactive)
+
+Account: MRK-04412-TRACE
+License expires: 2019-09-01
+Covered devices: AP-SRF-01, AP-SRF-02
+Notes: Evaluating whether to renew. The controller-less Meraki model doesn't fit
+       how I manage the rest of the environment. May move to a different AP vendor
+       on the next refresh. Decision needed by August.
+
+---
+
+ISP (Primary Uplink - SRF)
+
+Account: ISP-ACCT-5502-LA
+NOC: 1-800-555-0199 (24x7)
+Circuit ID: LA-NW-2991-SRF
+Contracted speed: 100/100 Mbps
+Actual measured: 94/97 Mbps (last test 2019-05-01)
+Billing contact: accounts@example-isp.com
+Notes: See vendor-escalation.rtf in network-captures repo for the July 2019 ticket.
+       NOC is fine once you get past Tier 1. Tier 1 always blames your gear first.
+
+---
+
+GENERAL CABLE / LOW VOLTAGE
+
+Primary vendor: Southern Network Supply
+Account: SNS-TRACE-019
+Rep: G. Tran - 555-0166
+Notes: Good prices on bulk Cat6. Lead time is 3-5 days for anything not in stock.
+       Keep a spool of Cat6 and a box of keystones on hand — always need them.
+
+---
+
+e.hargrove // TRACE
